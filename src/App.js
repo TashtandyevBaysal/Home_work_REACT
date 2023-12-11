@@ -1,3 +1,4 @@
+import Events from './Events/Components';
 import FirstComponent from './components/FirstComponent';
 import Props1 from './components/Props1';
 
@@ -8,6 +9,8 @@ function App() {
       <Props1 colorItem ='red'/>
       <Props1 /> */}
       
+      <Events/>
+
     </div>
   );
 }
