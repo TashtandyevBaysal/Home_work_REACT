@@ -1,6 +1,7 @@
 import Events from './Events/Components';
 import FirstComponent from './components/FirstComponent';
 import Props1 from './components/Props1';
+import Meter from './useState_useEffect';
 
 function App() {
   return (
@@ -9,7 +10,9 @@ function App() {
       <Props1 colorItem ='red'/>
       <Props1 /> */}
       
-      <Events/>
+      {/* <Events/> */}
+
+      <Meter>{ Meter }</Meter>
 
     </div>
   );
